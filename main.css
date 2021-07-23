@@ -1,0 +1,254 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+#banner-home {
+    height: 100vh;
+  
+    background-image: url('https://maywaaccessories.com/wp-content/uploads/2021/01/Copia-de-MAYWA3332SEL-scaled.jpg');
+    display: grid;
+
+  
+	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+
+}
+
+#banner-home:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+
+#banner-home .texto,
+.ventas .texto{
+    color: white;
+    width:50%;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+}
+
+#banner-home .texto img{
+    width: 55%;
+
+    
+}
+
+
+#banner-home .texto h2{
+    font-size: 4vw;
+}
+.ventas{
+    height: 80vh;
+   border-top:3px solid black;
+   
+   
+    display: grid;
+
+
+	background-position:center ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+    width: 100%;
+   
+
+}
+
+.ventas:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.8);
+}
+
+.ventas:hover:before{
+    background-color: rgba(0,0,0,0.9);
+    cursor: pointer;
+}
+.cabello{
+    background-position: -120px 0px;
+    background-color: lightgray;
+    background-image: url('https://maywaaccessories.com/wp-content/uploads/2021/01/Copia-de-MAYWA3552TURB´UBLI-scaled.jpg');
+}
+
+.bufandas{
+    background-image: url('https://maywaaccessories.com/wp-content/uploads/2021/01/Copia-de-MAYWA2966B.jpg');
+    
+}
+
+.aretes{
+    background-image: url('https://maywaaccessories.com/wp-content/uploads/2021/01/Copia-de-MAYWA3360AYC-scaled.jpg');
+    
+}
+.collares{
+    background-image: url('https://maywaaccessories.com/wp-content/uploads/2021/01/Copia-de-MAYWA3878COS-scaled.jpg');
+}
+.anillos{
+    background-image: url('https://maywaaccessories.com/wp-content/uploads/2021/01/Copia-de-MAYWA3291AYP-scaled.jpg');
+}
+.bolsos{
+    background-position: -400px 0px;
+    
+    background-image: url('https://maywaaccessories.com/wp-content/uploads/2021/01/Copia-de-MAYWA3221BPUBLI-scaled.jpg');
+    
+}
+
+.ventas .texto h2{
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+    
+    margin-top: -100px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-family: Arial;
+    text-transform: uppercase;
+    opacity: 0.2;
+    color: yellow;
+    font-size: 8vw;
+    letter-spacing: 10px;
+    z-index: 0;
+    cursor: pointer
+}
+.ventas .texto h3{
+    font-size: 5vw;
+    font-family: Trebuchet MS;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: -60px;
+    z-index: 1;
+    font-weight: bolder;
+    scroll-behavior: smooth;
+    display: block;
+    width: 100%;
+    display: block;
+    text-align: center;
+    cursor: pointer
+}
+
+@media(max-width:1087px){
+    .ventas .texto h3{
+        font-size: 7vw;
+    }
+    .ventas .texto h2{
+        font-size: 10vw;
+    }
+    .ventas{
+        height: 60vh;
+    }
+}
+
+@media(max-width:900px){
+    .ventas .texto h3{
+        font-size: 6vw;
+    }
+    #banner-home {
+        height: 70vh;
+    }
+    #banner-home .texto img{
+        width: 80%;
+    }
+    .ventas .texto h2{
+        font-size: 8vw;
+        margin-top: -70px;
+    }
+    .ventas{
+        height: 50vh;
+    }
+    #banner-home .texto h2{
+        font-size: 5vw;
+    }
+}
+@media(max-width:750px){
+    
+    .ventas .texto h2{
+        font-size: 7vw;
+    }
+    #banner-home .texto h2{
+        font-size: 6vw;
+    }
+}
+
+@media(max-width:600px){
+    #banner-home {
+        height: 50vh;
+    }
+    #banner-home .texto img{
+        width: 100%;
+    }
+    .ventas .texto h2{
+        font-size: 9vw;
+        
+    }
+    .ventas .texto h3{
+     
+        font-size: 7vw;
+    }
+    .ventas{
+        height: 40vh;
+    }
+}
+@media(max-width:430px){
+    #banner-home .texto{
+        width: 70%;
+    }
+    .ventas .texto h2{
+        font-size: 10vw;
+        margin-top: -30px;
+        
+    }
+    #banner-home .texto h2{
+        font-size: 8vw;
+    }
+    .ventas .texto h3{
+        
+        font-size: 9vw;
+        margin-top: -30px;
+    }
+    #banner-home {
+        height: 70vh;
+        background-size: cover;
+        background-position-x: -100px;
+    }
+    .ventas{
+        height: 33vh;
+    }
+}
+@media(max-width:350px){
+    .ventas{
+        height: 30vh;
+    }
+    .ventas .texto h3{
+        
+        font-size: 9vw;
+    }
+}
+
+@media(max-width:310px){
+    #banner-home .texto{
+        width: 90%;
+    }
+    .ventas{
+        height: 25vh;
+    }
+    .ventas .texto h2{
+        font-size: 10vw;
+      
+    }
+}
